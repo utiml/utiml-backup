@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "setup",
+            "type": "shell",
+            "command": "make setup"
+        },
+        {
+            "label": "test",
+            "type": "shell",
+            "command": "make test"
+        },
+        {
+            "label": "coverage",
+            "type": "shell",
+            "command": "make coverage"
+        },
+        {
+            "label": "lint",
+            "type": "shell",
+            "command": "make lint"
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make build"
+        }
+    ]
+}
